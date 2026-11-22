@@ -9,7 +9,7 @@ p{margin:0 0 1rem}
 section{padding:84px 0;border-top:1px solid var(--line)}
 .alt{background:var(--coal)}
 .wine{background:var(--wine)}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;background:linear-gradient(180deg,#22c55e,#16a34a);color:#fff;font-weight:600;text-decoration:none;border-radius:2px;letter-spacing:.02em;transition:filter .2s}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;background:linear-gradient(180deg,#22c55e,#16a34a);color:#000;font-weight:600;text-decoration:none;border-radius:20px;letter-spacing:.02em;transition:filter .2s}
 .btn:hover{filter:brightness(1.1)}
 a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(--gold-l);outline-offset:3px}
 .small{font-size:.85rem;color:var(--mute)}
