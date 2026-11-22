@@ -19,7 +19,7 @@ HTML, CSS e JavaScript puros. Sem build e sem dependências (só as fontes do Go
 ## Antes de divulgar — pendências
 - [x] Autorização de Ozeias e Leiko confirmada pelo contratante. Os prints mostram nome e foto de perfil; não mostram telefone.
 - [ ] Remover o order bump da Hotmart ou trocá-lo por outro item (Workbook com desconto). O checklist já está dentro do PDF.
-- [ ] Alinhar os títulos dos capítulos do PDF com os da página (a página usa os títulos mais claros).
+- [x] Títulos dos capítulos na página alinhados aos do livro (seção "O que tem dentro").
 - [ ] Regenerar a capa do livro e a do checklist sem as frases "99% das pessoas ignoram" e "um mar de pessoas emocionalmente limitadas".
 - [ ] Cronometrar uma leitura calma e informar o tempo real para substituir "de leitura rápida" no hero.
 - [ ] Confirmar no Insights o número de "15 milhões de visualizações" ou remover a afirmação.
