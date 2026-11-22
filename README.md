@@ -5,28 +5,24 @@ HTML, CSS e JavaScript puros. Sem build e sem dependências (só as fontes do Go
 ## Arquivos
 - `index.html`: estrutura e textos da página.
 - `css/style.css`: todo o visual. As cores ficam nas variáveis do `:root` no topo.
-- `js/main.js`: comportamento. No topo está o link de compra (`LINK_HOTMART`).
-- `images/capa.jpg`: capa do livro. Para trocar, substitua o arquivo mantendo o nome.
-- `images/depoimento-ozeias.png` e `images/depoimento-leiko.jpeg`: prints autorizados dos depoimentos.
+- `js/main.js`: link de compra (`LINK_HOTMART`).
+- `images/capa.jpg`: capa do livro.
+- `images/depoimento-ozeias.png` e `images/depoimento-leiko.jpeg`: prints usados na seção sobre o Guia.
 - `favicon.svg`: ícone da aba.
 
 ## Como editar
-- **Link de compra:** `js/main.js`, constante `LINK_HOTMART`. Vale para todos os botões.
+- **Link de compra:** está em `js/main.js` (`LINK_HOTMART`) e também no `href` dos botões no `index.html`, para funcionar mesmo com JavaScript desativado.
 - **Textos, preço, capítulos, FAQ:** `index.html`.
-- **Cores:** `css/style.css`, bloco `:root` (`--gold`, `--black`, `--ivory`...).
-- **Depoimentos:** `index.html`, seção "O que leitores já disseram".
+- **Cores:** `css/style.css`, bloco `:root`.
+- **Depoimentos:** `index.html`, seção "O que disseram sobre o Guia".
 
-## Como ver no VS Code
-1. Abra a pasta no VS Code (Arquivo > Abrir Pasta).
-2. Instale a extensão **Live Server**.
-3. Clique com o botão direito em `index.html` > **Open with Live Server**.
-
-## Confirmado
-- Checklist bônus está incluído no e-book entregue.
-- Prints dos depoimentos (Ozeias e Leiko) autorizados para uso na página.
-
-## Pendências [CONFIRMAR]
-- Número de "15 milhões de visualizações" (conferir no Insights).
-- Link `tinyurl.com/codigo-silecioso` (confirmar a grafia).
-- Pixels da Meta e do TikTok (ainda não instalados).
-- Ao publicar em domínio próprio: atualizar `og:url`, `canonical` e `og:image` no `index.html`.
+## Antes de divulgar — pendências
+- [ ] Confirmar com Ozeias e Leiko a autorização para usar nome e print. Os prints mostram foto de perfil e nome; não mostram telefone.
+- [ ] Remover o order bump da Hotmart ou trocá-lo por outro item (Workbook com desconto). O checklist já está dentro do PDF.
+- [ ] Alinhar os títulos dos capítulos do PDF com os da página (a página usa os títulos mais claros).
+- [ ] Regenerar a capa do livro e a do checklist sem as frases "99% das pessoas ignoram" e "um mar de pessoas emocionalmente limitadas".
+- [ ] Cronometrar uma leitura calma e informar o tempo real para substituir "de leitura rápida" no hero.
+- [ ] Confirmar no Insights o número de "15 milhões de visualizações" ou remover a afirmação.
+- [ ] Acrescentar identificação do fornecedor (nome ou CNPJ), e-mail de contato e link da política de privacidade no rodapé.
+- [ ] Instalar os pixels da Meta e do TikTok na página e conferir a configuração no checkout da Hotmart.
+- [ ] Substituir `og:url`, `canonical` e `og:image` no `index.html` pelo endereço real da página.
