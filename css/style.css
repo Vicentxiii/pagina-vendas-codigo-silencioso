@@ -9,8 +9,9 @@ p{margin:0 0 1rem}
 section{padding:84px 0;border-top:1px solid var(--line)}
 .alt{background:var(--coal)}
 .wine{background:var(--wine)}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#14110a;font-weight:600;text-decoration:none;border-radius:2px;letter-spacing:.02em;transition:filter .2s}
-.btn:hover{filter:brightness(1.1)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 38px;background:linear-gradient(180deg,#fff6dc 0%,var(--gold-l) 16%,var(--gold) 44%,#9d7128 50%,#dcb56a 62%,#f9e7bc 88%,#caa04e 100%);color:#1a1408;font-weight:600;text-decoration:none;border:1px solid #f7e3b2;border-radius:20%;letter-spacing:.03em;text-shadow:0 1px 0 rgba(255,255,255,.4);box-shadow:0 6px 0 #7c5620,0 14px 24px rgba(0,0,0,.45),inset 0 1px 2px rgba(255,255,255,.9),inset 0 -3px 5px rgba(0,0,0,.2);transition:transform .16s ease,box-shadow .16s ease,filter .2s}
+.btn:hover{filter:brightness(1.07);transform:translateY(-2px);box-shadow:0 8px 0 #7c5620,0 18px 28px rgba(0,0,0,.5),inset 0 1px 2px rgba(255,255,255,.95),inset 0 -3px 5px rgba(0,0,0,.2)}
+.btn:active{transform:translateY(4px);box-shadow:0 2px 0 #7c5620,0 5px 10px rgba(0,0,0,.4),inset 0 1px 2px rgba(255,255,255,.7),inset 0 -3px 5px rgba(0,0,0,.22)}
 a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(--gold-l);outline-offset:3px}
 .small{font-size:.85rem;color:var(--mute)}
 /* hero */
@@ -30,7 +31,8 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(-
 /* listas */
 .list{list-style:none;padding:0;margin:0 0 1.4rem;display:grid;gap:14px}
 .wine .list{font-size:1.05rem;color:#f0e7d6;gap:16px;margin-bottom:28px}
-.wine .list li::before{width:9px;height:9px;border-radius:50%;top:.62em;background:var(--gold-l)}
+.wine .list li{padding-left:38px}
+.wine .list li::before{content:"✓";display:grid;place-items:center;left:0;top:.14em;width:24px;height:24px;padding:0;border:1px solid var(--gold);border-radius:5px;background:rgba(201,162,77,.12);color:var(--gold-l);font:600 14px/1 Montserrat,system-ui,sans-serif}
 .two{display:grid;gap:56px;grid-template-columns:1fr 1fr;align-items:start}
 .big{font:italic 500 clamp(1.6rem,3.6vw,2.4rem)/1.25 "Cormorant Garamond",serif;color:var(--gold-l)}
 .notis{border-left:2px solid var(--gold);padding:4px 0 4px 20px;color:var(--mute);font-size:.95rem}
