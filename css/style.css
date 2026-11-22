@@ -1,4 +1,4 @@
-:root{--black:#050505;--coal:#0e0d0b;--panel:#16140f;--gold:#C9A24D;--gold-l:#E6CB8A;--ivory:#F2EBDD;--mute:#a79f8d;--line:rgba(201,162,77,.28);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--black:#050505;--coal:#0e0d0b;--panel:#16140f;--wine:#3c1020;--gold:#C9A24D;--gold-l:#E6CB8A;--ivory:#F2EBDD;--mute:#a79f8d;--line:rgba(201,162,77,.28);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--black);color:var(--ivory);font:400 16px/1.7 Montserrat,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
@@ -8,6 +8,7 @@ p{margin:0 0 1rem}
 .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
 section{padding:84px 0;border-top:1px solid var(--line)}
 .alt{background:var(--coal)}
+.wine{background:var(--wine)}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#14110a;font-weight:600;text-decoration:none;border-radius:2px;letter-spacing:.02em;transition:filter .2s}
 .btn:hover{filter:brightness(1.1)}
 a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(--gold-l);outline-offset:3px}
@@ -15,7 +16,6 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(-
 /* hero */
 .hero{border:0;padding:56px 0 84px;background:radial-gradient(ellipse at 80% 20%,rgba(201,162,77,.16),transparent 55%),var(--black)}
 .hero .wrap{display:grid;gap:44px;grid-template-columns:1.2fr .8fr;align-items:center}
-.tag{display:inline-block;border:1px solid var(--line);color:var(--gold-l);padding:6px 14px;font-size:.8rem;margin-bottom:26px}
 .hero h1{font-size:clamp(2.6rem,7vw,5rem);margin-bottom:22px}
 .hero h1 em{color:var(--gold-l)}
 .hero p.lead{font-size:1.1rem;color:#d8d0bf;max-width:34em}
@@ -29,6 +29,8 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(-
 .proof figcaption{font-size:.85rem;color:var(--mute)}
 /* listas */
 .list{list-style:none;padding:0;margin:0 0 1.4rem;display:grid;gap:14px}
+.wine .list{font-size:1.05rem;color:#f0e7d6;gap:16px;margin-bottom:28px}
+.wine .list li::before{width:9px;height:9px;border-radius:50%;top:.62em;background:var(--gold-l)}
 .two{display:grid;gap:56px;grid-template-columns:1fr 1fr;align-items:start}
 .big{font:italic 500 clamp(1.6rem,3.6vw,2.4rem)/1.25 "Cormorant Garamond",serif;color:var(--gold-l)}
 .notis{border-left:2px solid var(--gold);padding:4px 0 4px 20px;color:var(--mute);font-size:.95rem}
