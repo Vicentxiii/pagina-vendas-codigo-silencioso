@@ -17,12 +17,12 @@ HTML, CSS e JavaScript puros. Sem build e sem dependências (só as fontes do Go
 - **Depoimentos:** `index.html`, seção "O que disseram sobre o Guia".
 
 ## Antes de divulgar — pendências
-- [ ] Confirmar com Ozeias e Leiko a autorização para usar nome e print. Os prints mostram foto de perfil e nome; não mostram telefone.
+- [x] Autorização de Ozeias e Leiko confirmada pelo contratante. Os prints mostram nome e foto de perfil; não mostram telefone.
 - [ ] Remover o order bump da Hotmart ou trocá-lo por outro item (Workbook com desconto). O checklist já está dentro do PDF.
 - [ ] Alinhar os títulos dos capítulos do PDF com os da página (a página usa os títulos mais claros).
 - [ ] Regenerar a capa do livro e a do checklist sem as frases "99% das pessoas ignoram" e "um mar de pessoas emocionalmente limitadas".
 - [ ] Cronometrar uma leitura calma e informar o tempo real para substituir "de leitura rápida" no hero.
 - [ ] Confirmar no Insights o número de "15 milhões de visualizações" ou remover a afirmação.
-- [ ] Acrescentar identificação do fornecedor (nome ou CNPJ), e-mail de contato e link da política de privacidade no rodapé.
-- [ ] Instalar os pixels da Meta e do TikTok na página e conferir a configuração no checkout da Hotmart.
-- [ ] Substituir `og:url`, `canonical` e `og:image` no `index.html` pelo endereço real da página.
+- [x] Identificação no rodapé: Transcent Academy, CNPJ 66.287.542/0001-03, e-mail e link para `privacidade.html` (modelo, revisar com jurídico).
+- [ ] Instalar os pixels da Meta e do TikTok na página (IDs não enviados) e conferir a configuração no checkout da Hotmart.
+- [ ] Substituir `og:url`, `canonical` e `og:image` no `index.html` pelo endereço real da página (domínio próprio informado, URL exata ainda não enviada).
