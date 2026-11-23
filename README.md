@@ -1,6 +1,6 @@
 # O Código Silencioso: página de vendas
 
-HTML, CSS e JavaScript puros. Sem build e sem dependências de animação (só as fontes do Google).
+HTML, CSS e JavaScript puros. Sem build e sem dependências (só as fontes do Google). A Vercel Web Analytics é ativada por um `<script>` no `<head>` das páginas — não requer `npm i @vercel/analytics` nem `package.json`.
 
 ## Arquivos
 - `index.html`: estrutura e textos da página, com seções editoriais numeradas.
